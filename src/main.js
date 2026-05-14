@@ -169,7 +169,7 @@ function analyzeSalesData(data, options) {
     seller.bonus = calculateBonus(index, sellersStats.length, seller);
   });
 
-  // @TODO: Подготовка итоговой коллекции с нужными полями
+  // @TODOo: Подготовка итоговой коллекции с нужными полями
 
   return sellersStats.map((seller) => {
     return {
