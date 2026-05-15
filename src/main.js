@@ -150,7 +150,7 @@ function analyzeSalesData(data, options) {
       .slice(0, 10);
   });
 
-   // @TODOo: Подготовка итоговой коллекции с нужными полями
+   // @TODO: Подготовка итоговой коллекции с нужными полями
   return sellersStats.map((seller) => {
     return {
       seller_id: seller.seller_id,
